@@ -15,6 +15,7 @@ const Header = () => {
           objectFit='contain'
           layout='fill'
           objectPosition='left'
+          alt='image'
         />
       </div>
       <div className='flex items-center md:border-2 rounded-full py-2 md:shadow-sm'>

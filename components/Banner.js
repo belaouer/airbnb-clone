@@ -7,6 +7,7 @@ const Banner = () => {
         src='https://links.papareact.com/0fm'
         layout='fill'
         objectFit='cover'
+        alt='image'
       />
 
       <div className='absolute flex flex-col justify-center items-center'>

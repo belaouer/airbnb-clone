@@ -9,6 +9,7 @@ const Card = ({ image, title }) => {
           layout='fill'
           objectFit='contain'
           className='rounded-xl'
+          alt='image'
         />
       </div>
       <h3 className='text-2xl mt-3'>{title}</h3>

@@ -9,6 +9,7 @@ const SmallCard = ({ image, location, distance }) => {
           layout='fill'
           objectFit='contain'
           className='rounded-lg'
+          alt='image'
         />
       </div>
       <div className='flex flex-col'>
