@@ -1,12 +1,13 @@
 import Head from "next/head";
 import Banner from "../components/Banner";
 import Card from "../components/Card";
-import Footer from "../components/Footer";
-import Header from "../components/Header";
 import LargeCard from "../components/LargeCard";
 import SmallCard from "../components/SmallCard";
+import { useRouter } from "next/router";
+import Header from "../components/Header";
 
 export default function Home({ data, cardsData }) {
+  const router = useRouter();
   return (
     <div>
       <Head>
@@ -46,8 +47,6 @@ export default function Home({ data, cardsData }) {
           buttonText='Get Inspired'
         />
       </main>
-
-      <Footer />
     </div>
   );
 }
